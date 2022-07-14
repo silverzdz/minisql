@@ -11,6 +11,8 @@ BufferPoolManager::BufferPoolManager(size_t pool_size, DiskManager *disk_manager
   }
 }
 
+//test git
+
 BufferPoolManager::~BufferPoolManager() {
   for (auto page: page_table_) {
     FlushPage(page.first);
